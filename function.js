@@ -23,6 +23,7 @@ export function PedirEscolha(nome){
 }
 
 export function Cardapio(){
+    //Essa função apresenta o cardápio, com os pratos e os preços! ela é utilizada mais de uma vez no código//
     console.log('Aqui está nosso cardápio:\n')
         console.log('---Cardápio---');
     console.log('\n #1 - Steven Bubblegum Cupcake - R$8');
@@ -50,6 +51,7 @@ export function Perguntar(nome){
 }
 
 export function Soma(escolha2, qtd, preco){
+    //essa função calcula o valor total da compra, com base na escolha do usuário e na quantidade que ele deseja comprar//
     let soma = preco[escolha2] * qtd;
     return soma;
 }
