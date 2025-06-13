@@ -43,3 +43,5 @@ while( escolha != 0){
     funcoes.Apresentacao();
     escolha = funcoes.PedirEscolha(nome);
 }
+
+console.log('Até a próxima, '+ nome + '!');

@@ -107,19 +107,35 @@ export function Personagens(){
 export function Curiosidades(escolha2){
     if(escolha2 == 1){
         return 'Você sabia que Steven é baseado em uma pessoa real: O personagem foi inspirado no irmão mais novo da criadora da série, Steven Sugar. Ele também trabalhou na produção da série como designer de cenários';
- }
-    else if(escolha2 == 2){
+}
+else if(escolha2 == 2){
         return 'Apesar de ser uma Gem “de apoio”, Pérola demonstra grande conhecimento técnico, engenharia de naves e habilidades de pilotagem. Ela frequentemente conserta dispositivos, ativa portais e entende a tecnologia das Gems melhor que muitas guerreiras.';
- }
- else if(escolha2 == 3){
+}
+else if(escolha2 == 3){
      return 'Ela geralmente usa óculos futuristas, mas quando tira, revela três olhos — resultado da fusão de Ruby e Sapphire. Cada olho representa a perspectiva individual das duas Gemas, e o terceiro representa sua visão compartilhada como Garnet';
 }
-else if(escolha == 4){
+else if(escolha2 == 4){
     return 'Ametista foi formada no planeta Terra, mas saiu menor e menos poderosa do que o esperado para uma Gema da sua espécie. Isso faz com que ela, às vezes, se sinta inferior às outras Crystal Gems, principalmente à Garnet e à Pérola';
 }
 else if (escolha2 == 5){
     return 'Rose era fascinada pelos humanos e pelo livre-arbítrio, o que a fez se apaixonar pelo planeta Terra. Ela acreditava no valor da imperfeição, da mudança e da liberdade — o que motivou sua rebelião contra o sistema das Gemas.';
 }
 else if(escolha2 == 6){
-    return 
+    return 'Antes de viver em Beach City, Greg era um aspirante a astro do rock. Ele tinha um visual exagerado, fazia shows pequenos e gravava fitas demo com músicas como "Let Me Drive My Van Into Your Heart" — que até hoje é lembrada com carinho na série.';
+}
+else if(escolha2 == 7){
+    return 'Antes de viver em Beach City, Greg era um aspirante a astro do rock. Ele tinha um visual exagerado, fazia shows pequenos e gravava fitas demo com músicas como "Let Me Drive My Van Into Your Heart" — que até hoje é lembrada com carinho na série.';
+}
+else if(escolha2 == 8){
+    return 'Lapis Lazuli tem um visual que remete a pedras preciosas, especificamente à pedra de Lápis Lazuli, que é conhecida por seu tom azul intenso e seu brilho. Ela é uma Gem que usa roupas simples, com um top azul e uma saia, refletindo sua natureza introvertida e tranquila, especialmente nas primeiras temporadas.';
+}
+else if(escolha2 == 9){
+    return 'Connie é a primeira humana a realizar uma fusão com uma Gem — Steven — criando Stevonnie. Isso mostra como a conexão emocional e a confiança entre eles são fortes. Stevonnie representa uma fusão equilibrada de amizade, amor e respeito mútuo.';
+}
+else if(escolha2 == 10){
+    return 'Espinela tem um visual inspirado nos desenhos animados clássicos da era dos anos 1920 e 1930, como os personagens da Fleischer Studios (tipo Betty Boop). Isso se vê no estilo “rubber hose” dos seus movimentos, com membros flexíveis e expressões exageradas.';
+}
+else{
+    return 'Escolha inválida! Escolha um número de 0 a 100!';
+}
 }
