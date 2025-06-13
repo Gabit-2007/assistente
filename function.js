@@ -11,7 +11,7 @@ export function Nome(){
 export function Apresentacao(){
     console.log('\n---MENU---');
     console.log('\n #1 - Orçamento');
-    console.log(' #2 - Ingredientes');
+    console.log(' #2 - Informações sobre pratos');
     console.log(' #3 - Curiosidades');
     console.log(' #0 - Sair')
 }
@@ -23,6 +23,7 @@ export function PedirEscolha(nome){
 }
 
 export function Cardapio(){
+    console.log('Aqui está nosso cardápio:\n')
         console.log('---Cardápio---');
     console.log('\n #1 - Steven Bubblegum Cupcake - R$8');
     console.log(' #2 - Geleia de Rubi e Safira - R$4');
@@ -43,7 +44,23 @@ export function PedirEscolha2(nome){
 }
 
 export function Perguntar(nome){
-    console.log('\n - Você quer mais alguma coisa, ' + nome +'?')
-     let res = Number(ler());
-     return res;
+    console.log('\n - Quantos você quer, ' + nome +'?')
+     let qtd = Number(ler());
+     return qtd;
+}
+
+export function Soma(escolha2, qtd, preco){
+    let soma = preco[escolha2] * qtd;
+    return soma;
+}
+
+export function Ingredientes(escolha2){
+    if(escolha == 1){
+        console.log('- Massa de baunilha');
+        console.log('- Corante rosa para dar a cor de bubblegum');
+        console.log('- Cobertura de chantilly');
+        console.log('- Confeitos coloridos');
+        console.log('- Chocolate meio amargo picado para o toque final');
+    }
+    else if(escolha == 2){}
 }
