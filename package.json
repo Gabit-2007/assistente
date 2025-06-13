@@ -9,8 +9,16 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "prompt-sync": "^4.2.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gabit-2007/assistente.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Gabit-2007/assistente/issues"
+  },
+  "homepage": "https://github.com/Gabit-2007/assistente#readme",
+  "description": ""
 }
